@@ -1,0 +1,158 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "How are You",
+                "Is anyone there?",
+                "Hello",
+                "Good Day",
+                "What's up dude",
+                "which things available at your store"
+            ],
+            "responses":[
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi There, what can i do for you?",
+                "Hi there, how can I help?",
+                "Thanks, for visiting how can i assit you!"
+            ]
+
+        },
+        {
+            "tag":"Pizza",
+            "patterns":[
+               "Which type of Pizza do you have?",
+               "Tell me about pizza?",
+               "Give me detail about pizza?",
+               "How many types of pizza is there available?"
+            ],
+            "responses":[
+                "We have Neapolitan Pizza,Chicago Pizza,New York-Style Pizza, Sicilian Pizza,Greek Pizza,California Pizza,Detroit Pizza,St. Louis Pizza,",
+                "We can provide you Following Categories:'\n' 1.Neapolitan Pizza '\n' 2.Chicago Pizza '\n' 3.California Pizza '\n' 4.Sicilian Pizza '\n' 5.Greek Pizza '\n' 6.New York-Style Pizza '\n' 7. Louis Pizza '\n' 8. Detroit Pizza. "
+            ]
+        },
+        {
+            "tag":"Crust",
+            "patterns":[
+                "I wanna know about crust categories",
+                "Tell me about crust please",
+                "Whats about crust do you provide",
+                "Some information about crust"
+            ],
+            "responses":[
+                "There are two types of crusts Thin and Thick crust"
+            ]
+        },
+        {
+            "tag":"price_of_pizza",
+            "patterns":[
+                "Can you tell me the price of pizza",
+                "What is the price of the pizza",
+                "How much a pizza cost",
+                "What is pizza's price"
+            ],
+            "responses":[
+                "Each pizza costs 10$",
+                "The price o the pizza is 10$"
+            ]
+        },
+        {
+            "tag":"Price_of_coffee",
+            "patterns":[
+                "How much coffee cost",
+                "What is the price of the coffee"
+            ],
+            "responses":[
+                "The cost for each cofee is 5$",
+                "Price of each coffee is 5$"
+            ]
+
+        },
+        {
+            "tag":"goodybye",
+            "patterns":["Bye","See you later","GoodBye"],
+            "responses":[
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon"
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["Thanks","Thank you","That's helpful","Thank's a lot"],
+            "responses":["Happy to help!","Any time","My Pleasure"]
+        },
+        {
+            "tag":"items",
+            "patterns":[
+                "which items do you have?",
+                "What kinds of itmes are there?",
+                "What do you sell?",
+                "How many products do you sell?",
+                "Can i know which items do you contain",
+                "Let me know items you have?"
+            ],
+            "responses":[
+                "We sell coffee, pizza and tea",
+                "we have coffee ,tea and Pizza",
+                ""
+            ]
+        },
+        {
+            "tag":"payments",
+            "patterns":[
+                "Do you take credit Cards?",
+                "Do you accept Mastercard",
+                "Can i Pay with Paypal",
+                "Are you cash only?",
+                " How i can pay?",
+                " How many method of payment are there avaialbe?",
+                ""
+            ],
+            "responses":[
+                "we Accept VISA, Mastercard and PayPal",
+                "We accept most major credit cards, and Paypal "
+            ]
+        },
+        {
+            "tag":"delivery",
+            "patterns":[
+                "how long does delivery take?",
+                "How lond does shipping take",
+                "When do i get my delivery?",
+                "What is timing of delivery do to take?"
+            ],
+            "responses":[
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+            ]
+        },
+        {
+            "tag":"funny",
+            "patterns":[
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "do you know a joke?"
+            ],
+            "responses":[
+                "Why did the hipster burn his mouth? he drank the coffee before it was cool",
+                "What did the buffalo say when his son left for college? Bison"
+
+            ]
+        },
+        {
+            "tag":"introduction",
+            "patterns":[
+                "Tell me about Yourself",
+                "Introduce Yourself Please",
+                "Who are you"
+            ],
+            "responses":[
+                "I am a Language Model Trained on Coffee Shop. I am here to assist You ."
+            ]
+        }
+    ]
+}

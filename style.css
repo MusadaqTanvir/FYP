@@ -1,0 +1,49 @@
+
+/*Header of the main page */
+ .css-zt5igj.e16nr0p33{
+    background-color:black;
+    border: solid 1px white;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: Arial;
+}
+/* background color of the sidebar */
+.css-6qob1r.e1fqkh3o3
+{
+    background-color:blueviolet;
+}
+.css-1uy0bt2.e1fqkh3o6{
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 120px;
+    text-decoration: bold;
+    font-size:20px;
+}
+.main.css-k1vhr4.egzxvld5
+{
+                background-color:#27ae60;
+}
+.css-1avcm0n.e8zbici2
+{
+    border: solid 1px white;
+}
+.css-1rs6os.edgvbvh3:hover{
+background-color: rgb(13, 228, 103);
+}
+.css-102x5pl.e1fqkh3o6
+{
+    background-color:#27ae60;
+    text-align: center;
+    padding-left: 70px;
+    border: solid 1px white;
+    box-shadow: 0 3px 15px rgb(247, 245, 245);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: Arial;
+}
+
+.css-10pw50.egzxvld1
+{
+    visibility: hidden;
+}
